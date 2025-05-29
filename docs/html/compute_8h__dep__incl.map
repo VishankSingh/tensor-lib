@@ -1,0 +1,5 @@
+<map id="include/utils/compute.h" name="include/utils/compute.h">
+<area shape="rect" id="node1" title="Header file for compute type detection." alt="" coords="49,5,224,32"/>
+<area shape="rect" id="node2" href="$main_8cpp.html" title="Main entry point for the CUDA test application." alt="" coords="5,80,111,107"/>
+<area shape="rect" id="node3" href="$compute_8cpp.html" title="Implementation of compute type detection." alt="" coords="135,80,296,107"/>
+</map>

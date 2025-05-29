@@ -1,0 +1,52 @@
+\hypertarget{compute_8h}{}\doxysection{include/utils/compute.h File Reference}
+\label{compute_8h}\index{include/utils/compute.h@{include/utils/compute.h}}
+
+
+Header file for compute type detection.  
+
+
+{\ttfamily \#include $<$ostream$>$}\newline
+Include dependency graph for compute.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=211pt]{compute_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=298pt]{compute_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{compute_8h_a855f7f597f8b74dc986981f58f6b9072}\label{compute_8h_a855f7f597f8b74dc986981f58f6b9072}} 
+enum class {\bfseries Compute\+Type} \{ {\bfseries CPU}
+, {\bfseries CUDA}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{compute_8h_aa32c15d1c51d06d260875fa6ca4d7912}\label{compute_8h_aa32c15d1c51d06d260875fa6ca4d7912}} 
+const char $\ast$ {\bfseries lib\+::compute\+::to\+String} (lib\+::compute\+::\+Compute\+Type type)
+\item 
+\mbox{\Hypertarget{compute_8cpp_afa0409067ca097cfd624f76e9a37a51e}\label{compute_8cpp_afa0409067ca097cfd624f76e9a37a51e}} 
+Compute\+Type {\bfseries lib\+::compute\+::detect\+Compute\+Type} ()
+\item 
+\mbox{\Hypertarget{compute_8cpp_a6fd743af738f5060c83b2383e7a1031d}\label{compute_8cpp_a6fd743af738f5060c83b2383e7a1031d}} 
+void {\bfseries lib\+::compute\+::set\+Compute\+Type} (Compute\+Type type)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Header file for compute type detection. 
+
+\begin{DoxyAuthor}{Author}
+Vishank Singh, \href{https://github.com/VishankSingh}{\texttt{ https\+://github.\+com/\+Vishank\+Singh}} 
+\end{DoxyAuthor}

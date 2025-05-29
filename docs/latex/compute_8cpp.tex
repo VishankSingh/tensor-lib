@@ -1,0 +1,56 @@
+\hypertarget{compute_8cpp}{}\doxysection{src/utils/compute.cpp File Reference}
+\label{compute_8cpp}\index{src/utils/compute.cpp@{src/utils/compute.cpp}}
+
+
+Implementation of compute type detection.  
+
+
+{\ttfamily \#include \char`\"{}utils/compute.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$cuda\+\_\+runtime.\+h$>$}\newline
+{\ttfamily \#include $<$stdexcept$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+Include dependency graph for compute.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{compute_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{compute_8cpp_af97b3ad73526a0fa8fd97081fa88c14d}\label{compute_8cpp_af97b3ad73526a0fa8fd97081fa88c14d}} 
+\#define {\bfseries RED\+\_\+\+BOLD}~\char`\"{}\textbackslash{}033\mbox{[}1m\textbackslash{}033\mbox{[}31m\char`\"{}
+\item 
+\mbox{\Hypertarget{compute_8cpp_a0214e7db0d113f1c621e92a802b0e57d}\label{compute_8cpp_a0214e7db0d113f1c621e92a802b0e57d}} 
+\#define {\bfseries GREEN\+\_\+\+BOLD}~\char`\"{}\textbackslash{}033\mbox{[}1m\textbackslash{}033\mbox{[}32m\char`\"{}
+\item 
+\mbox{\Hypertarget{compute_8cpp_ab702106cf3b3e96750b6845ded4e0299}\label{compute_8cpp_ab702106cf3b3e96750b6845ded4e0299}} 
+\#define {\bfseries RESET}~\char`\"{}\textbackslash{}033\mbox{[}0m\char`\"{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{compute_8cpp_afa0409067ca097cfd624f76e9a37a51e}\label{compute_8cpp_afa0409067ca097cfd624f76e9a37a51e}} 
+Compute\+Type {\bfseries lib\+::compute\+::detect\+Compute\+Type} ()
+\item 
+\mbox{\Hypertarget{compute_8cpp_a6fd743af738f5060c83b2383e7a1031d}\label{compute_8cpp_a6fd743af738f5060c83b2383e7a1031d}} 
+void {\bfseries lib\+::compute\+::set\+Compute\+Type} (Compute\+Type type)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{compute_8cpp_abe7778fc8960f2a773ba5cd1b7a2fabb}\label{compute_8cpp_abe7778fc8960f2a773ba5cd1b7a2fabb}} 
+Compute\+Type {\bfseries lib\+::compute\+::compute\+Type} = Compute\+Type\+::\+CPU
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementation of compute type detection. 
+
+This file contains the implementation of functions to detect the compute type (CPU or CUDA) based on the availability of CUDA devices.
+
+\begin{DoxyAuthor}{Author}
+Vishank Singh, \href{https://github.com/VishankSingh}{\texttt{ https\+://github.\+com/\+Vishank\+Singh}} 
+\end{DoxyAuthor}
